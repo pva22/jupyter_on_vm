@@ -6,16 +6,16 @@ https://medium.com/@alexjsanchez/python-3-notebooks-on-aws-ec2-in-15-mostly-easy
 https://www.digitalocean.com/community/tutorials/how-to-install-run-connect-to-jupyter-notebook-on-remote-server
 
 
-1. wget https://repo.anaconda.com/archive/Anaconda3-2018.12-Linux-x86_64.sh
-2. bash Anaconda3-2018.12-Linux-x86_64.sh
+1. wget https://repo.anaconda.com/archive/Anaconda3-2019.07-Linux-x86_64.sh
+2. bash Anaconda3-2019.07-Linux-x86_64.sh
 3. vim .bashrc
 4. export PATH="/home/ubuntu/anaconda3/bin:$PATH" (перед вставкой нажать "i", затем esc :wq)
 5. source .bashrc
 6. vim .ssh/config
-7. Host ec2
-    Hostname **your-ec2’s-public-ip-address here**
-    User ubuntu
-    IdentityFile ~/tutorialexample.pem
+7. Host ec2</br>
+    Hostname **your-ec2’s-public-ip-address here**</br>
+    User ubuntu</br>
+    IdentityFile ~/tutorialexample.pem</br>
     (перед вставкой нажать "i", затем esc :wq)
 8. jupyter notebook --no-browser
 
