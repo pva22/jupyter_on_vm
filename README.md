@@ -21,7 +21,7 @@ https://www.digitalocean.com/community/tutorials/how-to-install-run-connect-to-j
 
 PUTTY SSH Tunneling(для Windows):
 
-подключение как обычно, только > SSH > Tunnels
+подключение как обычно, только > SSH > Tunnels </br>
 Sourse port: 8000, Destination localhost:8888, нажать Add и Open
 
 SSH Tunneling (Для Mac):
