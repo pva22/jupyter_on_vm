@@ -19,14 +19,12 @@ https://www.digitalocean.com/community/tutorials/how-to-install-run-connect-to-j
     (перед вставкой нажать "i", затем esc :wq)
 8. jupyter notebook --no-browser
 
-PUTTY SSH Tunneling(для Windows)
-
+PUTTY SSH Tunneling(для Windows):
 
 подключение как обычно, только > SSH > Tunnels
-
 Sourse port: 8000, Destination localhost:8888, нажать Add и Open
 
-SSH Tunneling (Для Mac)
+SSH Tunneling (Для Mac):
 
 ssh -L 8000:localhost:8888 sammy@your_server_ip
 
